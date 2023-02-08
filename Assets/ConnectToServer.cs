@@ -38,4 +38,14 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
     {
         Application.Quit();
     }
+
+    public void How()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void MM()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
